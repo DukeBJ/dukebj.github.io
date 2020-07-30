@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="test slider" />
+        <title>Слайдер</title>
+        <link rel="stylesheet" href="css/plugins.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/modernizr.js"></script>
+    </head>
+    <body class="smooth-scroll">
+
+        <div class="preloader">
+            <div class="loader-wrap">
+                <div class="loader">
+                    <div class="loader-percent"></div>
+                </div>
+                <div>Загрузка</div><div id="percent">0%</div>
+            </div>
+        </div>
+
+        <div id="main">
+
+            <div class="ct-main-content ct-index">
+
+                <header>
+                    <div class="logo-container">
+                    </div>
+
+                    <div class="menu-burger">
+                        <div class="parallax-wrap burger-wrap">
+                            <div class="parallax-icon">
+                                <div class="burger-box">
+                                    <div class="burger-inner"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </header>
+
+                <div id="scroll-content">
+                </div>
+
+                <div class="page-content">
+
+                    <div id="pixi-slider">
+
+                        <div class="slider-wrapper">
+
+                            <div class="slider-item">
+                                <div class="slide-image">
+                                    <img src="img/01.jpg" class="slide-item__image" alt="Project Image">
+                                </div>
+
+                                <div class="slide-content">
+                                    <div class="slide-content-inner">
+                                        <div class="item-cat">Современные технологии</div>
+                                        <h2 class="item-title" data-splitting >Аллюминевый профиль</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="slider-item">
+                                <div class="slide-image">
+                                    <img src="img/02.jpg" class="slide-item__image" alt="Project Image">
+                                </div>
+                                <div class="slide-content">
+                                    <div class="slide-content-inner">
+                                        <div class="item-cat">Много света</div>
+                                        <h2 class="item-title" data-splitting>Панорамное остекление</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="slider-item">
+                                <div class="slide-image">
+                                    <img src="img/03.jpg" class="slide-item__image" alt="Project Image">
+                                </div>
+                                <div class="slide-content">
+                                    <div class="slide-content-inner">
+                                        <div class="item-cat">Долговечность</div>
+                                        <h2 class="item-title" data-splitting>Качественная фурнитура</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slider-item">
+                                <div class="slide-image">
+                                    <img src="img/04.jpg" class="slide-item__image" alt="Project Image">
+                                </div>
+
+                                <div class="slide-content">
+                                    <div class="slide-content-inner">
+                                        <div class="item-cat">Удобный дизайн</div>
+                                        <h2 class="item-title" data-splitting >Приятно использовать</h2>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        <div class="arrows-wrap">
+                            <div class="slider-nav slider-nav--prev parallax-wrap" data-nav="previous">
+                                <div class="parallax-icon">
+                                    <i class="fas fa-chevron-left"></i>
+                                </div>
+                            </div>
+                            <div class="slider-nav slider-nav--next parallax-wrap" data-nav="next">
+                                <div class="parallax-icon">
+                                    <i class="fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="canvas-container"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="ajax-preloader">
+            <div class="loading"></div>
+        </div>
+
+        <div id="custom-cursor">
+            <div id="cursor-outer">
+                <div id="cursor-loading"></div>
+            </div>
+
+            <div id="cursor-inner"></div>
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/plugins.min.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
