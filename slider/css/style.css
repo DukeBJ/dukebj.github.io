@@ -1413,8 +1413,17 @@ footer .arrow-up {
     display: block; }
   #custom-cursor {
     display: none !important; }
-  #pixi-slider .slider-wrapper .slider-item {
-    left: 7vw; }
+  .slider-wrapper .slide-content .item-cat {
+    font-size: 13px;
+  }
+  .slider-wrapper .slide-content .item-title {
+    font-size: 50px;
+  }
+  #canvas-container:before {
+    height: 70vh!important;
+    width: 70vh!important;
+    left: 57%!important;
+  }
   #pixi-slider .slider-count {
     right: 7vw; }
   .hero .hero-title {
@@ -1459,7 +1468,20 @@ footer .arrow-up {
   .project-services .project-servicesList {
     margin-bottom: 50px; }
   .project-period p {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+  #pixi-slider .arrows-wrap {
+    width: 100%;
+  }
+  #canvas-container:before {
+    left: 58%!important;
+    height: 60vh!important;
+    width: 60vh!important;
+  }
+  #pixi-slider .slide-content {
+    width: 90%;
+    margin: auto;
+  }
+ }
 
 @media only screen and (max-width: 576px) {
   footer .back-top {
